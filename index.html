@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="styles.css" />
+<title>Velocity Motors</title>
+</head>
+<body>
+    <header>
+        <nav>
+           <div class="nav__header">
+           <div class="nav__logo">
+            <a href="#" class="logo">
+              <img src="carros/logotipodepagina.png" alt="logo" class="logotipodepagina">
+              <span>Velocity Motors</span>
+            </a>
+           </div>
+           <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+           </div>
+           </div>
+           <ul class="nav__links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#deals">Rental Deals</a></li>
+            <li><a href="#choose">Why Choose Us</a></li>
+           </ul>
+           <div class="nav__btns">
+  
+           </div>
+        </nav>
+        <div class="header__container" id="home">
+            <div class="header__image">
+              
+            </div>
+            <div class="header__content">
+                <h2>¡Bienvenido a Velocity Motors!
+                <p>Nos complace tenerte con nosotros, 
+                un lugar donde la pasión por la velocidad y la elegancia se encuentran. 
+                En nuestra página web, te ofrecemos una exclusiva selección de carros deportivos de las marcas más
+                 prestigiosas del mundo, diseñados para los verdaderos amantes de la adrenalina y el lujo.</h2>
+                <h1>Explora modelos de alto rendimiento, con tecnología de punta y un diseño imbatible. 
+                    Ya sea que busques un automóvil que combine potencia con estilo o un vehículo con una ingeniería
+                     de precisión, aquí encontrarás lo mejor para satisfacer tus deseos y necesidades.</h1>
+                <p class="section__description">
+                    Únete a nuestra comunidad de conductores exigentes y disfruta de un sitio web donde la calidad, 
+                    el diseño y el placer al conducir son nuestra prioridad. ¡Prepárate para experimentar una nueva forma de vivir 
+                    la carretera aqui en Velocity Motors!
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <section class="header__form">
+        <form action="/">
+           <div class="input__group">
+            <label for="start">Pick up y return location</label>
+            <input 
+            type="text"
+            name="location"
+            id="location"
+            placeholder="Tijuana Mexico"
+            />
+           </div>
+           <div class="input__group">
+            <label for="start">Pick up date</label>
+            <input 
+            type="text"
+            name="start"
+            id="start"
+            placeholder="Aug 16, 10:00 AM"
+            />
+           </div>
+           <div class="input__group">
+            <label for="stop">Return date</label>
+            <input 
+            type="text"
+            name="stop"
+            id="stop"
+            placeholder="Aug 16, 10:00 PM"
+            />
+           </div>
+       
+        </form>
+    </section>
+
+    <section class="section__container about__container" id="about">
+        <h2 class="section__header"> How it work</h2>
+        <p class="section__description">
+            Renting a car with us is simple! Choose your vehicle, pick your
+            and complete your booking. we ll handle the rest,ensurging a 
+            start to your journey.
+        </p>
+        <div class="about__grid">
+          <div class="about__card">
+            <span><i class="ri-map-pin-2-fill"></i></span>
+            <h4>Choose location</h4>
+            <p>
+                select from a variety of pick-up locations that best suit 
+                needs, whether it s close to home, work, or airport.
+            </p>
+          </div>
+          <div class="about__card">
+            <span><i class="ri-calendar-event-fill"></i></span>
+            <h4>Pick-up date</h4>
+            <p>
+                choose the exact date and time for you car pick-up 
+                your vehicle is ready when you need it.
+            </p>
+          </div>
+          <div class="about__card">
+            <span><i class="ri-roadster-fill"></i></span>
+            <h4>Book your car</h4>
+            <p>
+                complete your booking with just a few clicks, and we ll
+                vehicle to ensure a hassle-free pick-up.
+            </p>
+          </div>
+
+        </div>
+    </section>
+    <section class="deals" id="deals">
+        <div class="section__container deals__container">
+          <h2 class="section__header">Most popular car rental deals</h2>
+          <p class="section__description">
+            Explore our top carrental deals, 
+            handpicked to give you the value and experience. book now and drive your favorite ride
+            incredible rate!
+          </p>
+          <div class="deals__tabs">
+            <button class="btn active" data-id="McLaren">productos</button>
+            
+          </div>
+          <div id="McLaren" class="tab__content">
+            <div class="deals__card">
+                <img src="carros/mclarensenna.jpg" alt="mclarensenna">
+                <div class="deals__rating">
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span>(550)</span>
+                </div>
+                <h4>mclarensenna</h4>
+                <div class="deals__card__grid">
+                    <div>
+                        <span><i class="ri-group-line"></i></span> 4 people
+                    </div>
+                    <div>
+                        <span><i class="ri-steering-2-line"></i></span> Autopilot
+                </div>
+                <div>
+                    <span><i class="ri-speed-up-line"></i></span> 400KM
+            </div>
+            <div>
+                <span><i class="ri-car-line"></i></span> Hibrid
+          </div>
+        </div>
+        <hr>
+        <div class="deals__card__footer">
+          <h3>$180 <span>/per day</span></h3>
+          <a href="#">
+            Rent now
+            <span><i class="ri-arrow-right-line"></i></span>
+          </a>
+        </div>
+
+        <div id="Pagani" class="tab__content">
+            <div class="deals__card">
+                <img src="carros/pagani1.jfif" alt="mclarensenna">
+                <div class="deals__rating">
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span>(550)</span>
+                </div>
+                <h4>Pagani huaira BC</h4>
+                <div class="deals__card__grid">
+                    <div>
+                        <span><i class="ri-group-line"></i></span> 4 people
+                    </div>
+                    <div>
+                        <span><i class="ri-steering-2-line"></i></span> Autopilot
+                </div>
+                <div>
+                    <span><i class="ri-speed-up-line"></i></span> 350KM
+            </div>
+            <div>
+                <span><i class="ri-car-line"></i></span> Hibrid
+          </div>
+        </div>
+        <hr>
+        <div class="deals__card__footer">
+          <h3>$174,4901 <span>/per day</span></h3>
+          <a href="#">
+            Rent now
+            <span><i class="ri-arrow-right-line"></i></span>
+          </a>
+        </div>
+
+        <div id="Peugeot" class="tab__content">
+            <div class="deals__card">
+                <img src="carros/peugeot.jfif" alt="mclarensenna">
+                <div class="deals__rating">
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span>(550)</span>
+                </div>
+                <h4>Peugeot Onix</h4>
+                <div class="deals__card__grid">
+                    <div>
+                        <span><i class="ri-group-line"></i></span> 2 people
+                    </div>
+                    <div>
+                        <span><i class="ri-steering-2-line"></i></span> Autopilot
+                </div>
+                <div>
+                    <span><i class="ri-speed-up-line"></i></span> 350KM
+            </div>
+            <div>
+                <span><i class="ri-car-line"></i></span> electric
+          </div>
+        </div>
+        <hr>
+        <div class="deals__card__footer">
+          <h3>$100,000,00 <span>/per day</span></h3>
+          <a href="#">
+            Rent now
+            <span><i class="ri-arrow-right-line"></i></span>
+          </a>
+        </div>
+
+        <div id="Devel" class="tab__content">
+            <div class="deals__card">
+                <img src="carros/devel.jfif" alt="mclarensenna">
+                <div class="deals__rating">
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span>(550)</span>
+                </div>
+                <h4>Devel Sixteen</h4>
+                <div class="deals__card__grid">
+                    <div>
+                        <span><i class="ri-group-line"></i></span> 1 people
+                    </div>
+                    <div>
+                        <span><i class="ri-steering-2-line"></i></span> Autopilot
+                </div>
+                <div>
+                    <span><i class="ri-speed-up-line"></i></span> 480KM
+            </div>
+            <div>
+                <span><i class="ri-car-line"></i></span> Hibrid
+          </div>
+        </div>
+        <hr>
+        <div class="deals__card__footer">
+          <h3>$15000,000,000 <span>/per day</span></h3>
+          <a href="#">
+            Rent now
+            <span><i class="ri-arrow-right-line"></i></span>
+          </a>
+        </div>
+
+        <div id="Lamborghini" class="tab__content">
+            <div class="deals__card">
+                <img src="carros/centenario.jfif" alt="mclarensenna">
+                <div class="deals__rating">
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span>(550)</span>
+                </div>
+                <h4>Lamborghini centenario</h4>
+                <div class="deals__card__grid">
+                    <div>
+                        <span><i class="ri-group-line"></i></span> 2 people
+                    </div>
+                    <div>
+                        <span><i class="ri-steering-2-line"></i></span> Autopilot
+                </div>
+                <div>
+                    <span><i class="ri-speed-up-line"></i></span> 350KM
+            </div>
+            <div>
+                <span><i class="ri-car-line"></i></span> Hibrid
+          </div>
+        </div>
+        <hr>
+        <div class="deals__card__footer">
+          <h3>$250,000,000 <span>/per day</span></h3>
+          <a href="#">
+            Rent now
+            <span><i class="ri-arrow-right-line"></i></span>
+          </a>
+        </div>
+
+        <div id="Ferrari" class="tab__content">
+            <div class="deals__card">
+                <img src="carros/laferrari.jfif" alt="mclarensenna">
+                <div class="deals__rating">
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span>(550)</span>
+                </div>
+                <h4>Ferrari Laferrari Aperta</h4>
+                <div class="deals__card__grid">
+                    <div>
+                        <span><i class="ri-group-line"></i></span> 2 people
+                    </div>
+                    <div>
+                        <span><i class="ri-steering-2-line"></i></span> Autopilot
+                </div>
+                <div>
+                    <span><i class="ri-speed-up-line"></i></span> 380KM
+            </div>
+            <div>
+                <span><i class="ri-car-line"></i></span> Hibrid
+          </div>
+        </div>
+        <hr>
+        <div class="deals__card__footer">
+          <h3>$5,000,000 <span>/per day</span></h3>
+          <a href="#">
+            Rent now
+            <span><i class="ri-arrow-right-line"></i></span>
+          </a>
+        </div>
+
+        <div id="Lamborghini" class="tab__content">
+            <div class="deals__card">
+                <img src="carros/countach.jfif" alt="mclarensenna">
+                <div class="deals__rating">
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span>(550)</span>
+                </div>
+                <h4>Lamborghini countach</h4>
+                <div class="deals__card__grid">
+                    <div>
+                        <span><i class="ri-group-line"></i></span> 2 people
+                    </div>
+                    <div>
+                        <span><i class="ri-steering-2-line"></i></span> Autopilot
+                </div>
+                <div>
+                    <span><i class="ri-speed-up-line"></i></span> 370KM
+            </div>
+            <div>
+                <span><i class="ri-car-line"></i></span> Hibrid
+          </div>
+        </div>
+        <hr>
+        <div class="deals__card__footer">
+          <h3>$15,000,000 <span>/per day</span></h3>
+          <a href="#">
+            Rent now
+            <span><i class="ri-arrow-right-line"></i></span>
+          </a>
+        </div>
+
+        <div id="Genty" class="tab__content">
+            <div class="deals__card">
+                <img src="carros/genty.jfif" alt="mclarensenna">
+                <div class="deals__rating">
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span>(550)</span>
+                </div>
+                <h4>Genty Akilone</h4>
+                <div class="deals__card__grid">
+                    <div>
+                        <span><i class="ri-group-line"></i></span> 2 people
+                    </div>
+                    <div>
+                        <span><i class="ri-steering-2-line"></i></span> Autopilot
+                </div>
+                <div>
+                    <span><i class="ri-speed-up-line"></i></span> 300KM
+            </div>
+            <div>
+                <span><i class="ri-car-line"></i></span> Electric
+          </div>
+        </div>
+        <hr>
+        <div class="deals__card__footer">
+          <h3>$100,000,000 <span>/per day</span></h3>
+          <a href="#">
+            Rent now
+            <span><i class="ri-arrow-right-line"></i></span>
+          </a>
+        </div>
+
+        <div id="Apollo" class="tab__content">
+            <div class="deals__card">
+                <img src="carros/apollon.jfif" alt="mclarensenna">
+                <div class="deals__rating">
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span>(550)</span>
+                </div>
+                <h4>Apollo N</h4>
+                <div class="deals__card__grid">
+                    <div>
+                        <span><i class="ri-group-line"></i></span> 1 people
+                    </div>
+                    <div>
+                        <span><i class="ri-steering-2-line"></i></span> Autopilot
+                </div>
+                <div>
+                    <span><i class="ri-speed-up-line"></i></span> 400KM
+            </div>
+            <div>
+                <span><i class="ri-car-line"></i></span> Hibrid
+          </div>
+        </div>
+        <hr>
+        <div class="deals__card__footer">
+          <h3>$250,000,000 <span>/per day</span></h3>
+          <a href="#">
+            Rent now
+            <span><i class="ri-arrow-right-line"></i></span>
+          </a>
+        </div>
+
+        <div id="Koenisegg" class="tab__content">
+            <div class="deals__card">
+                <img src="carros/absolut.jfif" alt="mclarensenna">
+                <div class="deals__rating">
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span>(550)</span>
+                </div>
+                <h4>Koenisegg Jesko absolut</h4>
+                <div class="deals__card__grid">
+                    <div>
+                        <span><i class="ri-group-line"></i></span> 2 people
+                    </div>
+                    <div>
+                        <span><i class="ri-steering-2-line"></i></span> Autopilot
+                </div>
+                <div>
+                    <span><i class="ri-speed-up-line"></i></span> 550KM
+            </div>
+            <div>
+                <span><i class="ri-car-line"></i></span> Hibrid
+          </div>
+        </div>
+        <hr>
+        <div class="deals__card__footer">
+          <h3>$770,000,000 <span>/per day</span></h3>
+          <a href="#">
+            Rent now
+            <span><i class="ri-arrow-right-line"></i></span>
+          </a>
+        </div>
+
+        <div id="BUGATTI" class="tab__content">
+            <div class="deals__card">
+                <img src="carros/bolide.jfif" alt="mclarensenna">
+                <div class="deals__rating">
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span>(550)</span>
+                </div>
+                <h4>Bugatti Bolide</h4>
+                <div class="deals__card__grid">
+                    <div>
+                        <span><i class="ri-group-line"></i></span> 1 people
+                    </div>
+                    <div>
+                        <span><i class="ri-steering-2-line"></i></span> x
+                </div>
+                <div>
+                    <span><i class="ri-speed-up-line"></i></span> 350KM
+            </div>
+            <div>
+                <span><i class="ri-car-line"></i></span> Hibrid
+          </div>
+        </div>
+        <hr>
+        <div class="deals__card__footer">
+          <h3>$2,000,000 <span>/per day</span></h3>
+          <a href="#">
+            Rent now
+            <span><i class="ri-arrow-right-line"></i></span>
+          </a>
+        </div>
+
+        <div id="Koenisegg" class="tab__content">
+            <div class="deals__card">
+                <img src="carros/agera.jfif" alt="mclarensenna">
+                <div class="deals__rating">
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span>(550)</span>
+                </div>
+                <h4>Koenisegg Agera RS</h4>
+                <div class="deals__card__grid">
+                    <div>
+                        <span><i class="ri-group-line"></i></span> 2 people
+                    </div>
+                    <div>
+                        <span><i class="ri-steering-2-line"></i></span> Autopilot
+                </div>
+                <div>
+                    <span><i class="ri-speed-up-line"></i></span> 470KM
+            </div>
+            <div>
+                <span><i class="ri-car-line"></i></span> Hibrid
+          </div>
+        </div>
+        <hr>
+        <div class="deals__card__footer">
+          <h3>$85,000,000 <span>/per day</span></h3>
+          <a href="#">
+            Rent now
+            <span><i class="ri-arrow-right-line"></i></span>
+          </a>
+        </div>
+
+        <div id="hennessey" class="tab__content">
+            <div class="deals__card">
+                <img src="carros/hennessey.jfif" alt="mclarensenna">
+                <div class="deals__rating">
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span>(550)</span>
+                </div>
+                <h4>Hennessey Venom F5</h4>
+                <div class="deals__card__grid">
+                    <div>
+                        <span><i class="ri-group-line"></i></span> 1 people
+                    </div>
+                    <div>
+                        <span><i class="ri-steering-2-line"></i></span> Autopilot
+                </div>
+                <div>
+                    <span><i class="ri-speed-up-line"></i></span> 400KM
+            </div>
+            <div>
+                <span><i class="ri-car-line"></i></span> Hibrid
+          </div>
+        </div>
+        <hr>
+        <div class="deals__card__footer">
+          <h3>$85,000,000 <span>/per day</span></h3>
+          <a href="#">
+            Rent now
+            <span><i class="ri-arrow-right-line"></i></span>
+          </a>
+        </div>
+
+        <div id="Pagani" class="tab__content">
+            <div class="deals__card">
+                <img src="carros/pagani1.jfif" alt="mclarensenna">
+                <div class="deals__rating">
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span>(550)</span>
+                </div>
+                <h4>Pagani huaira BC</h4>
+                <div class="deals__card__grid">
+                    <div>
+                        <span><i class="ri-group-line"></i></span> 4 people
+                    </div>
+                    <div>
+                        <span><i class="ri-steering-2-line"></i></span> Autopilot
+                </div>
+                <div>
+                    <span><i class="ri-speed-up-line"></i></span> 350KM
+            </div>
+            <div>
+                <span><i class="ri-car-line"></i></span> Hibrid
+          </div>
+        </div>
+        <hr>
+        <div class="deals__card__footer">
+          <h3>$174,4901 <span>/per day</span></h3>
+          <a href="#">
+            Rent now
+            <span><i class="ri-arrow-right-line"></i></span>
+          </a>
+        </div>
+          
+        <div id="Zenvo" class="tab__content">
+            <div class="deals__card">
+                <img src="carros/Zenovo ST-1.jfif" alt="mclarensenna">
+                <div class="deals__rating">
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                    <span>(550)</span>
+                </div>
+                <h4>Zenvo Gt Anniversario</h4>
+                <div class="deals__card__grid">
+                    <div>
+                        <span><i class="ri-group-line"></i></span> 2 people
+                    </div>
+                    <div>
+                        <span><i class="ri-steering-2-line"></i></span> Autopilot
+                </div>
+                <div>
+                    <span><i class="ri-speed-up-line"></i></span> 450KM
+            </div>
+            <div>
+                <span><i class="ri-car-line"></i></span> Hibrid
+          </div>
+        </div>
+        <hr>
+        <div class="deals__card__footer">
+          <h3>$2,000,000 <span>/per day</span></h3>
+          <a href="#">
+            Rent now
+            <span><i class="ri-arrow-right-line"></i></span>
+          </a>
+        </div>
+     </section>
+      
+     <section class="subscribe__container">
+        <div class="subscribe__image">
+         <img src="carros/supra.jfif" alt="">
+        </div>
+        <div class="subscribe__content">
+            <h2 class="section__header">
+                Suscribe for the lastest car rental updates
+            </h2>
+            <p class="section__description">
+                stay in the know! suscribe to receibe the lastes car rental
+                exclusive offers, and updates rigth to your inbox.
+                don t miss specias promotions and the newrester additions to our fleet.
+            </p>
+            <form action="/">
+                <input type="text" placeholder="Your Email" />
+                <button class="btn">Subscribe</button>
+                <button class="btn">Enviar</button>
+            </form>
+        </div>
+     </section>
+
+     <section class="subscribe__container">
+        <div class="subscribe__image">
+            <img src="carros/glicken.jfif" alt="glicken">
+        </div>
+        </div>
+     </section>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>src="main.js"</script>
+</body>
+</html>
